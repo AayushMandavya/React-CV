@@ -1,13 +1,13 @@
 import { Component } from "react";
 import './App.css';
-import resume from "./components/resume";
-import navbar from "./components/navbar";
+import Resume from "./components/Resume";
+import Navbar from "./components/Navbar";
 class App extends Component{
   render(){
     return(
       <>
-      <navbar />
-      <resume />
+      <Navbar />
+      <Resume />
       </>
     );
   }
